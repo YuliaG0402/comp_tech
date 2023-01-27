@@ -90,20 +90,16 @@ h1::after {
     display: block;
 }
 
-.full-image {
-    margin: 100px 0px 100px 0px;
-}
-
 .social {
     display: block;
     width: 30px;
 }
 .reviews {
-    width: 870px;
-    float: left;
-    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-
 .review {
     border-left: 10px double navy;
     width: 350px;
@@ -112,7 +108,7 @@ h1::after {
 footer {
     background-color: white;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 30px 30px 20px 45px;
 }
